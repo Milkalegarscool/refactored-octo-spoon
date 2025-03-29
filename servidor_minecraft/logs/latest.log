@@ -1,0 +1,853 @@
+[14:06:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[14:06:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[14:06:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:06:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[14:06:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - CustomCrafting (4.16.11), DeathCoordinates (1.12.1), DriveBackupV2 (1.8.0), GSit (2.2.1), ItemEditor (2.0.3), SkinsRestorer (15.6.1), WolfyUtilities (4.17-beta.7), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4)
+[14:07:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:07:01] [ServerMain/WARN]: Missing data pack fabric
+[14:07:01] [ServerMain/WARN]: Missing data pack balm
+[14:07:01] [ServerMain/WARN]: Missing data pack bookshelf
+[14:07:01] [ServerMain/WARN]: Missing data pack fabric-convention-tags-v2
+[14:07:01] [ServerMain/WARN]: Missing data pack kleeslabs
+[14:07:01] [ServerMain/WARN]: Missing data pack rightclickharvest
+[14:07:01] [ServerMain/WARN]: Missing data pack supermartijn642corelib
+[14:07:01] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[14:07:01] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[14:07:06] [ServerMain/INFO]: Loaded 1300 recipes
+[14:07:06] [ServerMain/INFO]: Loaded 1505 advancements
+[14:07:07] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[14:07:07] [Server thread/INFO]: Loading properties
+[14:07:07] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[14:07:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:07:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:07:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:07:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[14:07:09] [Server thread/INFO]: Default game type: SURVIVAL
+[14:07:09] [Server thread/INFO]: Generating keypair
+[14:07:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:07:09] [Server thread/INFO]: Using epoll channel type
+[14:07:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:07:10] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loading 3 libraries... please wait
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[14:07:11] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[14:07:15] [Server thread/INFO]: [me.wolfyscript.lib.org.reflections.Reflections] Reflections took 706 ms to scan 1 urls, producing 924 keys and 3724 values
+[14:07:16] [Server thread/INFO]: [WolfyUtilities] Register Default StackIdentifiers
+[14:07:17] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[14:07:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@54b01398]
+[14:07:19] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Loading server plugin WolfyUtilities v4.17-beta.7
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register JSON de-/serializers
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register JSON Operators
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register JSON Value Providers
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register CustomItem NBT Checks
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Actions
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Events
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register Particle Animators
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register Particle Shapes
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register Particle Timers
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register Custom Block Data
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register Custom Player Data
+[14:07:19] [Server thread/INFO]: [WolfyUtilities] Register NBT Query Nodes
+[14:07:19] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.0.3
+[14:07:19] [Server thread/INFO]: [DeathCoordinates] Loading server plugin DeathCoordinates v1.12.1
+[14:07:19] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[14:07:19] [Server thread/INFO]: [DriveBackupV2] Loading server plugin DriveBackupV2 v1.8.0
+[14:07:19] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[14:07:19] [Server thread/INFO]: [CustomCrafting] Loading server plugin CustomCrafting v4.16.11
+[14:07:19] [Server thread/INFO]: [CustomCrafting] WolfyUtils API: v4.17-beta.7
+[14:07:19] [Server thread/INFO]: [CustomCrafting] CustomCrafting: v4.16.11
+[14:07:19] [Server thread/INFO]: [CustomCrafting] Environment   : PROD
+[14:07:19] [Server thread/INFO]: [CustomCrafting] Registering CustomItem Data
+[14:07:19] [Server thread/INFO]: [CustomCrafting] Registering Custom Block Data
+[14:07:19] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
+[14:07:19] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
+[14:07:20] [Server thread/INFO]: [CustomCrafting] Registering Recipe Conditions
+[14:07:20] [Server thread/INFO]: [CustomCrafting] Registering Recipe Types
+[14:07:20] [Server thread/INFO]: [CustomCrafting] Registering Anvil Recipe Tasks
+[14:07:20] [Server thread/INFO]: [CustomCrafting] Registering Type Registries
+[14:07:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:07:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[14:07:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:07:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:07:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[14:07:23] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v4.17-beta.7
+[14:07:23] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.21.1
+[14:07:23] [Server thread/INFO]: [WolfyUtilities] WolfyUtils version: 4.17.0.0
+[14:07:23] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
+[14:07:23] [Server thread/INFO]: [WolfyUtilities] Loading Plugin integrations: 
+[14:07:23] [Server thread/INFO]: [WolfyUtilities]  - No integrations found
+[14:07:23] [Server thread/INFO]: [WolfyUtilities] Register API references
+[14:07:23] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
+[14:07:24] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
+[14:07:24] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[14:07:25] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[14:07:25] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[14:07:27] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:07:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:07:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:07:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:07:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:07:27] [Server thread/INFO]: Preparing level "world"
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:07:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:07:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:07:36] [Server thread/INFO]: Time elapsed: 1195 ms
+[14:07:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:07:44] [Server thread/INFO]: Time elapsed: 7930 ms
+[14:07:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:07:46] [Server thread/INFO]: Time elapsed: 1791 ms
+[14:07:46] [Server thread/INFO]: Preparing start region for dimension vred:data_void
+[14:07:46] [Server thread/INFO]: Time elapsed: 0 ms
+[14:07:46] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) TNT ignition is PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lighters are PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lava fire is PERMITTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Fire spread is UNRESTRICTED.
+[14:07:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_vred_data_void'
+[14:07:47] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:07:48] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.0.3
+[14:07:48] [Server thread/INFO]: [ItemEditor] Detected minecraft 1.21.1
+[14:07:48] [Server thread/INFO]: [ItemEditor] Reloading items.
+[14:07:48] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[14:07:48] [Server thread/INFO]: [DeathCoordinates] Enabling DeathCoordinates v1.12.1
+[14:07:48] [Server thread/INFO]: [DeathCoordinates] Has been enabled! Version: 1.12.1
+[14:07:48] [Server thread/INFO]: [DeathCoordinates] Thanks for using my plugin!  ~Ajneb97
+[14:07:48] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.8.0
+[14:07:52] [Server thread/INFO]: [DriveBackupV2] Config loaded!
+[14:07:52] [Server thread/INFO]: [DriveBackupV2] Scheduling a backup to run every 60 minutes
+[14:07:52] [Server thread/INFO]: [DriveBackupV2] Metrics started
+[14:07:52] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
+[14:07:52] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:07:52] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[14:07:52] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[14:07:52] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v4.16.11
+[14:07:53] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
+[14:07:53] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
+[14:07:53] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[14:07:53] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[14:07:53] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[14:07:53] [Server thread/INFO]: [CustomCrafting]     Version      | v4.16.11
+[14:07:53] [Server thread/INFO]: [CustomCrafting]     WolfyUtils   | v4.17-beta.7
+[14:07:53] [Server thread/INFO]: [CustomCrafting]     Bukkit       | 1.21.1-57-b483da4 (MC: 1.21.1)(API: 1.21.1-R0.1-SNAPSHOT)
+[14:07:53] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:07:53] [Server thread/INFO]: [CustomCrafting] 
+[14:07:53] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[14:07:53] [Server thread/INFO]: [CustomCrafting] Omarlatif, Nat R, Obsidian_Sword, LiveJunye, Mithran, Teddy
+[14:07:53] [Server thread/INFO]: [CustomCrafting] Invictus_Vulpes , Luuk Musch, fioxu, JorshStark, Perny Dev, Charlie
+[14:07:53] [Server thread/INFO]: [CustomCrafting] iachen, whja t, Green Masks, lance fector, Jack Snellings, MineHouse Server
+[14:07:53] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[14:07:53] [Server thread/INFO]: [CustomCrafting] Data destination: LOCAL
+[14:07:53] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
+[14:07:53] [Server thread/INFO]: [CustomCrafting] Register ItemCreator Tabs
+[14:07:54] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[14:07:54] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[14:07:54] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 2 threads
+[14:07:54] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
+[14:07:54] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
+[14:07:55] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
+[14:07:55] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 2 recipes in 117ms
+[14:07:55] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[14:07:55] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
+[14:07:55] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[14:07:55] [Server thread/INFO]: [spark] Starting background profiler...
+[14:07:55] [Server thread/INFO]: Done preparing level "world" (28.828s)
+[14:07:56] [Server thread/INFO]: Running delayed init tasks
+[14:07:56] [Craft Scheduler Thread - 4 - DriveBackupV2/INFO]: [DriveBackupV2] Checking for updates...
+[14:07:56] [Server thread/INFO]: Done (66.560s)! For help, type "help"
+[14:07:56] [Server thread/INFO]: Timings Reset
+[14:08:03] [User Authenticator #0/INFO]: UUID of player Milkawhy is 52443112-e08e-33a4-b4be-d210d1a4ac46
+[14:08:03] [Server thread/INFO]: [DriveBackupV2] Enabling automatic backups
+[14:08:03] [Server thread/INFO]: Milkawhy joined the game
+[14:08:03] [Server thread/INFO]: Milkawhy[/127.152.86.142:42401] logged in with entity id 72 at ([world]-192.5, 97.0, -5.5)
+[14:08:07] [Server thread/INFO]: Nothing changed. The player already is an operator
+[14:08:10] [Server thread/INFO]: Milkawhy issued server command: /gamemode creative
+[14:08:10] [Server thread/INFO]: [Milkawhy: Set own game mode to Creative Mode]
+[14:08:17] [Server thread/INFO]: Milkawhy issued server command: /setworldspawn
+[14:08:17] [Server thread/INFO]: [Milkawhy: Set the world spawn point to -183, 99, -14 [0.0]]
+[14:08:21] [Server thread/INFO]: Milkawhy issued server command: /gamerule mobGriefing false
+[14:08:21] [Server thread/INFO]: [Milkawhy: Gamerule mobGriefing is now set to: false]
+[14:08:23] [Server thread/INFO]: Milkawhy issued server command: /gamerule commandBlockOutput false
+[14:08:23] [Server thread/INFO]: [Milkawhy: Gamerule commandBlockOutput is now set to: false]
+[14:08:51] [Server thread/INFO]: Milkawhy issued server command: /pl
+[14:08:54] [Server thread/INFO]: Milkawhy issued server command: /kill
+[14:08:54] [Server thread/INFO]: Milkawhy was killed
+[14:08:54] [Server thread/INFO]: [Milkawhy: Killed Milkawhy]
+[14:09:05] [Server thread/INFO]: Milkawhy issued server command: /drivebackup
+[14:09:21] [Server thread/INFO]: Milkawhy issued server command: /drivebackup linkaccount googledrive
+[14:09:56] [Server thread/INFO]: [DriveBackupV2] Scheduling a backup to run every 60 minutes
+[14:12:53] [Server thread/INFO]: Milkawhy issued server command: /reload confirm
+[14:12:53] [Server thread/INFO]: Milkawhy: Please note that this command is not supported and may cause issues when using some plugins.
+[14:12:53] [Server thread/INFO]: Milkawhy: If you encounter any issues please use the /stop command to restart your server.
+[14:12:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:12:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:12:54] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v4.16.11
+[14:12:54] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
+[14:12:54] [Server thread/INFO]: [WorldGuard] Unregistering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:12:54] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[14:12:54] [Server thread/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.8.0
+[14:12:54] [Server thread/INFO]: [DriveBackupV2] Stopping plugin!
+[14:12:54] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[14:12:54] [Server thread/INFO]: [DeathCoordinates] Disabling DeathCoordinates v1.12.1
+[14:12:54] [Server thread/INFO]: [DeathCoordinates] Has been disabled! Version: 1.12.1
+[14:12:54] [Server thread/INFO]: [ItemEditor] Disabling ItemEditor v2.0.3
+[14:12:54] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v4.17-beta.7
+[14:12:54] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
+[14:12:54] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[14:12:54] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:12:54] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[14:12:54] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:12:56] [Server thread/INFO]: Loaded 1300 recipes
+[14:12:57] [Server thread/INFO]: Loaded 1505 advancements
+[14:12:57] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:12:57] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
+[14:12:57] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:12:58] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[14:12:58] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - CustomCrafting (4.16.11), DeathCoordinates (1.12.1), DriveBackupV2 (1.8.0), GSit (2.2.1), ItemEditor (2.0.3), SkinsRestorer (15.6.1), WolfyUtilities (4.17-beta.7), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4)
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loading 3 libraries... please wait
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[14:12:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[14:13:00] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[14:13:01] [Server thread/INFO]: [me.wolfyscript.lib.org.reflections.Reflections] Reflections took 668 ms to scan 1 urls, producing 924 keys and 3724 values
+[14:13:02] [Server thread/INFO]: [WolfyUtilities] Register Default StackIdentifiers
+[14:13:03] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[14:13:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6c0d36a1]
+[14:13:04] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Loading server plugin WolfyUtilities v4.17-beta.7
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register JSON de-/serializers
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register JSON Operators
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register JSON Value Providers
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register CustomItem NBT Checks
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Actions
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Events
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register Particle Animators
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register Particle Shapes
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register Particle Timers
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register Custom Block Data
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register Custom Player Data
+[14:13:04] [Server thread/INFO]: [WolfyUtilities] Register NBT Query Nodes
+[14:13:05] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.0.3
+[14:13:05] [Server thread/INFO]: [DeathCoordinates] Loading server plugin DeathCoordinates v1.12.1
+[14:13:05] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[14:13:05] [Server thread/INFO]: [DriveBackupV2] Loading server plugin DriveBackupV2 v1.8.0
+[14:13:05] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Loading server plugin CustomCrafting v4.16.11
+[14:13:05] [Server thread/INFO]: [CustomCrafting] WolfyUtils API: v4.17-beta.7
+[14:13:05] [Server thread/INFO]: [CustomCrafting] CustomCrafting: v4.16.11
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Environment   : PROD
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Registering CustomItem Data
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Registering Custom Block Data
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Registering Recipe Conditions
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Registering Recipe Types
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Registering Anvil Recipe Tasks
+[14:13:05] [Server thread/INFO]: [CustomCrafting] Registering Type Registries
+[14:13:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:13:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[14:13:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:13:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:13:05] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[14:13:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[14:13:08] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v4.17-beta.7
+[14:13:08] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.21.1
+[14:13:08] [Server thread/INFO]: [WolfyUtilities] WolfyUtils version: 4.17.0.0
+[14:13:08] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
+[14:13:08] [Server thread/INFO]: [WolfyUtilities] Loading Plugin integrations: 
+[14:13:08] [Server thread/INFO]: [WolfyUtilities]  - No integrations found
+[14:13:08] [Server thread/INFO]: [WolfyUtilities] Register API references
+[14:13:09] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
+[14:13:09] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
+[14:13:09] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[14:13:09] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[14:13:10] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[14:13:10] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[14:13:11] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:13:11] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.6.1
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 8687003
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:13:11] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) TNT ignition is PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lighters are PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lava fire is PERMITTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Fire spread is UNRESTRICTED.
+[14:13:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_vred_data_void'
+[14:13:12] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:13:12] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.0.3
+[14:13:12] [Server thread/INFO]: [ItemEditor] Detected minecraft 1.21.1
+[14:13:12] [Server thread/INFO]: [ItemEditor] Reloading items.
+[14:13:12] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[14:13:12] [Server thread/INFO]: [DeathCoordinates] Enabling DeathCoordinates v1.12.1
+[14:13:12] [Server thread/INFO]: [DeathCoordinates] Has been enabled! Version: 1.12.1
+[14:13:12] [Server thread/INFO]: [DeathCoordinates] Thanks for using my plugin!  ~Ajneb97
+[14:13:12] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.8.0
+[14:13:15] [Server thread/INFO]: [DriveBackupV2] Backup schedule empty, disabling schedule-based backups
+[14:13:15] [Server thread/INFO]: [DriveBackupV2] Config loaded!
+[14:13:15] [Server thread/INFO]: [DriveBackupV2] Scheduling a backup to run every 60 minutes
+[14:13:15] [Server thread/INFO]: [DriveBackupV2] Metrics started
+[14:13:15] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
+[14:13:15] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:13:15] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[14:13:15] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[14:13:15] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v4.16.11
+[14:13:15] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
+[14:13:15] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
+[14:13:16] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[14:13:16] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[14:13:16] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[14:13:16] [Server thread/INFO]: [CustomCrafting]     Version      | v4.16.11
+[14:13:16] [Server thread/INFO]: [CustomCrafting]     WolfyUtils   | v4.17-beta.7
+[14:13:16] [Server thread/INFO]: [CustomCrafting]     Bukkit       | 1.21.1-57-b483da4 (MC: 1.21.1)(API: 1.21.1-R0.1-SNAPSHOT)
+[14:13:16] [Server thread/INFO]: [CustomCrafting] 
+[14:13:16] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[14:13:16] [Server thread/INFO]: [CustomCrafting] Omarlatif, Nat R, Obsidian_Sword, LiveJunye, Mithran, Teddy
+[14:13:16] [Server thread/INFO]: [CustomCrafting] Invictus_Vulpes , Luuk Musch, fioxu, JorshStark, Perny Dev, Charlie
+[14:13:16] [Server thread/INFO]: [CustomCrafting] iachen, whja t, Green Masks, lance fector, Jack Snellings, MineHouse Server
+[14:13:16] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[14:13:16] [Server thread/INFO]: [CustomCrafting] Data destination: LOCAL
+[14:13:16] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
+[14:13:16] [Server thread/INFO]: [CustomCrafting] Register ItemCreator Tabs
+[14:13:17] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[14:13:17] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[14:13:17] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 2 threads
+[14:13:17] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
+[14:13:17] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
+[14:13:17] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
+[14:13:17] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 2 recipes in 119ms
+[14:13:17] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[14:13:17] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
+[14:13:17] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[14:13:18] [Server thread/INFO]: Milkawhy: Reload complete.
+[14:13:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24254ms or 485 ticks behind
+[14:13:18] [Server thread/INFO]: Timings Reset
+[14:13:18] [Craft Scheduler Thread - 32 - DriveBackupV2/INFO]: [DriveBackupV2] Checking for updates...
+[14:13:18] [Server thread/WARN]: Milkawhy moved too quickly! 13.816033138643604,-0.395575898673286,1.7691351898831584
+[14:13:18] [Server thread/INFO]: Milkawhy has made the advancement [Ice Bucket Challenge]
+[14:13:35] [Server thread/INFO]: Milkawhy issued server command: /drivebackup
+[14:13:37] [Server thread/INFO]: Milkawhy issued server command: /drivebackup backup
+[14:13:37] [Server thread/INFO]: [DriveBackupV2] Forcing a backup
+[14:13:37] [Thread-18/INFO]: [DriveBackupV2] Creating backups, the server may lag for a little while...
+[14:13:37] [Thread-18/INFO]: [DriveBackupV2] Creating local backup(s) and compressing...
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Local backup(s) created and compressed
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Uploading backup(s)...
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Backup(s) uploaded
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Checking for upload errors...
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Backup to Google Drive complete
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] No upload errors found
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Backup complete
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Pruning local backups
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Local backup pruning complete
+[14:13:38] [Thread-18/INFO]: [DriveBackupV2] Backup took 0 seconds to compleate
+[14:14:55] [Server thread/INFO]: Milkawhy issued server command: /reload confirm
+[14:14:55] [Server thread/INFO]: Milkawhy: Please note that this command is not supported and may cause issues when using some plugins.
+[14:14:55] [Server thread/INFO]: Milkawhy: If you encounter any issues please use the /stop command to restart your server.
+[14:14:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:14:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:14:55] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v4.16.11
+[14:14:55] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
+[14:14:55] [Server thread/INFO]: [WorldGuard] Unregistering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:14:55] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[14:14:55] [Server thread/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.8.0
+[14:14:55] [Server thread/INFO]: [DriveBackupV2] Stopping plugin!
+[14:14:55] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[14:14:55] [Server thread/INFO]: [DeathCoordinates] Disabling DeathCoordinates v1.12.1
+[14:14:55] [Server thread/INFO]: [DeathCoordinates] Has been disabled! Version: 1.12.1
+[14:14:55] [Server thread/INFO]: [ItemEditor] Disabling ItemEditor v2.0.3
+[14:14:55] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v4.17-beta.7
+[14:14:55] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
+[14:14:55] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[14:14:55] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:14:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[14:14:55] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:14:57] [Server thread/INFO]: Loaded 1300 recipes
+[14:14:57] [Server thread/INFO]: Loaded 1505 advancements
+[14:14:57] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:14:57] [Paper Async Command Builder Thread Pool - 3/ERROR]: Caught previously unhandled exception :
+[14:14:57] [Paper Async Command Builder Thread Pool - 3/ERROR]: Paper Async Command Builder Thread Pool - 3
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:14:57] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[14:14:57] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - CustomCrafting (4.16.11), DeathCoordinates (1.12.1), DriveBackupV2 (1.8.0), GSit (2.2.1), ItemEditor (2.0.3), SkinsRestorer (15.6.1), WolfyUtilities (4.17-beta.7), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4)
+[14:14:57] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loading 3 libraries... please wait
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[14:14:58] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[14:15:00] [Server thread/INFO]: [me.wolfyscript.lib.org.reflections.Reflections] Reflections took 540 ms to scan 1 urls, producing 924 keys and 3724 values
+[14:15:00] [Server thread/INFO]: [WolfyUtilities] Register Default StackIdentifiers
+[14:15:00] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[14:15:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[14:15:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2c816a83]
+[14:15:02] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Loading server plugin WolfyUtilities v4.17-beta.7
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register JSON de-/serializers
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register JSON Operators
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register JSON Value Providers
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register CustomItem NBT Checks
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Actions
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Events
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register Particle Animators
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register Particle Shapes
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register Particle Timers
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register Custom Block Data
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register Custom Player Data
+[14:15:02] [Server thread/INFO]: [WolfyUtilities] Register NBT Query Nodes
+[14:15:02] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.0.3
+[14:15:02] [Server thread/INFO]: [DeathCoordinates] Loading server plugin DeathCoordinates v1.12.1
+[14:15:02] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[14:15:02] [Server thread/INFO]: [DriveBackupV2] Loading server plugin DriveBackupV2 v1.8.0
+[14:15:02] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Loading server plugin CustomCrafting v4.16.11
+[14:15:03] [Server thread/INFO]: [CustomCrafting] WolfyUtils API: v4.17-beta.7
+[14:15:03] [Server thread/INFO]: [CustomCrafting] CustomCrafting: v4.16.11
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Environment   : PROD
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Registering CustomItem Data
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Registering Custom Block Data
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Registering Recipe Conditions
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Registering Recipe Types
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Registering Anvil Recipe Tasks
+[14:15:03] [Server thread/INFO]: [CustomCrafting] Registering Type Registries
+[14:15:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:15:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[14:15:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:15:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:15:03] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[14:15:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[14:15:05] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v4.17-beta.7
+[14:15:05] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.21.1
+[14:15:05] [Server thread/INFO]: [WolfyUtilities] WolfyUtils version: 4.17.0.0
+[14:15:05] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
+[14:15:05] [Server thread/INFO]: [WolfyUtilities] Loading Plugin integrations: 
+[14:15:05] [Server thread/INFO]: [WolfyUtilities]  - No integrations found
+[14:15:05] [Server thread/INFO]: [WolfyUtilities] Register API references
+[14:15:06] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
+[14:15:06] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
+[14:15:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[14:15:06] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[14:15:07] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[14:15:08] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[14:15:08] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:15:09] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.6.1
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8687003
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:15:09] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) TNT ignition is PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lighters are PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lava fire is PERMITTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Fire spread is UNRESTRICTED.
+[14:15:09] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_vred_data_void'
+[14:15:09] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:15:09] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.0.3
+[14:15:10] [Server thread/INFO]: [ItemEditor] Detected minecraft 1.21.1
+[14:15:10] [Server thread/INFO]: [ItemEditor] Reloading items.
+[14:15:10] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[14:15:10] [Server thread/INFO]: [DeathCoordinates] Enabling DeathCoordinates v1.12.1
+[14:15:10] [Server thread/INFO]: [DeathCoordinates] Has been enabled! Version: 1.12.1
+[14:15:10] [Server thread/INFO]: [DeathCoordinates] Thanks for using my plugin!  ~Ajneb97
+[14:15:10] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.8.0
+[14:15:11] [Thread-0/INFO]: Stopping server
+[14:15:12] [Server thread/INFO]: [DriveBackupV2] Backup schedule empty, disabling schedule-based backups
+[14:15:12] [Server thread/INFO]: [DriveBackupV2] Config loaded!
+[14:15:12] [Server thread/INFO]: [DriveBackupV2] Scheduling a backup to run every 60 minutes
+[14:15:12] [Server thread/INFO]: [DriveBackupV2] Metrics started
+[14:15:12] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
+[14:15:12] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:15:12] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[14:15:12] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[14:15:12] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v4.16.11
+[14:15:12] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
+[14:15:13] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
+[14:15:13] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[14:15:13] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[14:15:13] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[14:15:13] [Server thread/INFO]: [CustomCrafting]     Version      | v4.16.11
+[14:15:13] [Server thread/INFO]: [CustomCrafting]     WolfyUtils   | v4.17-beta.7
+[14:15:13] [Server thread/INFO]: [CustomCrafting]     Bukkit       | 1.21.1-57-b483da4 (MC: 1.21.1)(API: 1.21.1-R0.1-SNAPSHOT)
+[14:15:13] [Server thread/INFO]: [CustomCrafting] 
+[14:15:13] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[14:15:13] [Server thread/INFO]: [CustomCrafting] Omarlatif, Nat R, Obsidian_Sword, LiveJunye, Mithran, Teddy
+[14:15:13] [Server thread/INFO]: [CustomCrafting] Invictus_Vulpes , Luuk Musch, fioxu, JorshStark, Perny Dev, Charlie
+[14:15:13] [Server thread/INFO]: [CustomCrafting] iachen, whja t, Green Masks, lance fector, Jack Snellings, MineHouse Server
+[14:15:13] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[14:15:13] [Server thread/INFO]: [CustomCrafting] Data destination: LOCAL
+[14:15:13] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
+[14:15:13] [Server thread/INFO]: [CustomCrafting] Register ItemCreator Tabs
+[14:15:14] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[14:15:14] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[14:15:14] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 2 threads
+[14:15:14] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
+[14:15:14] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
+[14:15:14] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
+[14:15:14] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 2 recipes in 109ms
+[14:15:14] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[14:15:14] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
+[14:15:14] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[14:15:14] [Thread-0/INFO]: [CustomCrafting] Disabling CustomCrafting v4.16.11
+[14:15:14] [Thread-0/INFO]: [GSit] Disabling GSit v2.2.1
+[14:15:14] [Thread-0/INFO]: [WorldGuard] Unregistering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:15:14] [Thread-0/INFO]: [GSit] The plugin was successfully disabled.
+[14:15:14] [Thread-0/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.8.0
+[14:15:14] [Thread-0/INFO]: [DriveBackupV2] Stopping plugin!
+[14:15:14] [Thread-0/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[14:15:14] [Thread-0/INFO]: [DeathCoordinates] Disabling DeathCoordinates v1.12.1
+[14:15:14] [Thread-0/INFO]: [DeathCoordinates] Has been disabled! Version: 1.12.1
+[14:15:14] [Thread-0/INFO]: [ItemEditor] Disabling ItemEditor v2.0.3
+[14:15:14] [Thread-0/INFO]: [WolfyUtilities] Disabling WolfyUtilities v4.17-beta.7
+[14:15:14] [Thread-0/INFO]: [WolfyUtilities] Save stored Custom Items
+[14:15:14] [Thread-0/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[14:15:14] [Thread-0/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:15:15] [Thread-0/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[14:15:15] [Thread-0/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:15:15] [Server thread/ERROR]: Command exception: /reload confirm
+com.sk89q.worldedit.extension.platform.NoCapablePlatformException: Not all platforms have been registered yet! Please wait until WorldEdit is initialized.
+	at worldedit-bukkit-7.3.9.jar/com.sk89q.worldedit.extension.platform.PlatformManager.queryCapability(PlatformManager.java:170) ~[worldedit-bukkit-7.3.9.jar:?]
+	at worldedit-bukkit-7.3.9.jar/com.sk89q.worldedit.extension.platform.PlatformManager.getConfiguration(PlatformManager.java:296) ~[worldedit-bukkit-7.3.9.jar:?]
+	at worldedit-bukkit-7.3.9.jar/com.sk89q.worldedit.WorldEdit.getConfiguration(WorldEdit.java:793) ~[worldedit-bukkit-7.3.9.jar:?]
+	at worldedit-bukkit-7.3.9.jar/com.sk89q.worldedit.bukkit.BukkitCommandInspector.getShortText(BukkitCommandInspector.java:56) ~[worldedit-bukkit-7.3.9.jar:?]
+	at worldedit-bukkit-7.3.9.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic.<init>(DynamicPluginCommandHelpTopic.java:44) ~[worldedit-bukkit-7.3.9.jar:?]
+	at worldedit-bukkit-7.3.9.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic$Factory.createTopic(DynamicPluginCommandHelpTopic.java:144) ~[worldedit-bukkit-7.3.9.jar:?]
+	at worldedit-bukkit-7.3.9.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic$Factory.createTopic(DynamicPluginCommandHelpTopic.java:141) ~[worldedit-bukkit-7.3.9.jar:?]
+	at org.bukkit.craftbukkit.help.SimpleHelpMap.initializeCommands(SimpleHelpMap.java:136) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1138) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:15:15] [Thread-0/INFO]: Saving players
+[14:15:15] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
+java.lang.IllegalStateException: null
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:112) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1195) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1191) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:1009) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:27) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+[14:15:15] [Server thread/WARN]: Milkawhy moved too quickly! 9.074230504306342,2.0013359791121417,4.550636307898273
+[14:15:15] [Server thread/WARN]: Milkawhy moved too quickly! 8.84822766336643,1.7531999805212024,4.367523725511237
+[14:15:15] [Server thread/WARN]: Milkawhy moved too quickly! 8.84822766336643,1.7531999805212024,4.367523725511237
+[14:15:15] [Server thread/WARN]: Milkawhy moved too quickly! 8.88541375373947,1.674799978995324,4.3989074725534145
+[14:15:15] [Server thread/WARN]: Milkawhy moved too quickly! 8.847623473038311,1.7531999805212024,4.3682348903638335
+[14:15:15] [Server thread/WARN]: Milkawhy moved too quickly! 8.84822766336643,1.7531999805212024,4.367523725511237
+[14:15:16] [Server thread/WARN]: Milkawhy moved too quickly! 8.866169621954128,1.674799978995324,4.382209204447275
+[14:15:17] [Server thread/WARN]: Milkawhy moved too quickly! 8.927301992549587,1.0,4.431819809647475
+[14:15:17] [Server thread/WARN]: Milkawhy moved too quickly! 9.00116847919378,1.0,4.491614277277005
+[14:15:17] [Server thread/WARN]: Milkawhy moved too quickly! 8.828511225926206,2.0013359791121417,4.351385837035629
+[14:15:18] [Server thread/WARN]: Milkawhy moved too quickly! 8.930788920243572,1.0,4.42733678721239
+[14:15:18] [Server thread/WARN]: Milkawhy moved too quickly! 9.007088084052924,1.0,4.483996198902204
+[14:15:18] [Server thread/WARN]: Milkawhy moved too quickly! 8.930788920243572,1.0,4.42733678721239
+[14:15:39] [Server thread/INFO]: Milkawhy issued server command: /pl
+[14:15:43] [Server thread/INFO]: Milkawhy issued server command: /reload confirm
+[14:15:43] [Server thread/INFO]: Milkawhy: Please note that this command is not supported and may cause issues when using some plugins.
+[14:15:43] [Server thread/INFO]: Milkawhy: If you encounter any issues please use the /stop command to restart your server.
+[14:15:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:15:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:15:45] [Server thread/INFO]: Loaded 1300 recipes
+[14:15:45] [Server thread/INFO]: Loaded 1505 advancements
+[14:15:45] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:15:46] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[14:15:46] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - CustomCrafting (4.16.11), DeathCoordinates (1.12.1), DriveBackupV2 (1.8.0), GSit (2.2.1), ItemEditor (2.0.3), SkinsRestorer (15.6.1), WolfyUtilities (4.17-beta.7), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4)
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loading 3 libraries... please wait
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[14:15:46] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/refactored-octo-spoon/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[14:15:48] [Server thread/INFO]: [me.wolfyscript.lib.org.reflections.Reflections] Reflections took 627 ms to scan 1 urls, producing 924 keys and 3724 values
+[14:15:49] [Server thread/INFO]: [WolfyUtilities] Register Default StackIdentifiers
+[14:15:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[14:15:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5732d2bf]
+[14:15:51] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Loading server plugin WolfyUtilities v4.17-beta.7
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register JSON de-/serializers
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register JSON Operators
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register JSON Value Providers
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register CustomItem NBT Checks
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Actions
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Events
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register Particle Animators
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register Particle Shapes
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register Particle Timers
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register Custom Block Data
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register Custom Player Data
+[14:15:51] [Server thread/INFO]: [WolfyUtilities] Register NBT Query Nodes
+[14:15:51] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.0.3
+[14:15:51] [Server thread/INFO]: [DeathCoordinates] Loading server plugin DeathCoordinates v1.12.1
+[14:15:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[14:15:51] [Server thread/INFO]: [DriveBackupV2] Loading server plugin DriveBackupV2 v1.8.0
+[14:15:51] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Loading server plugin CustomCrafting v4.16.11
+[14:15:51] [Server thread/INFO]: [CustomCrafting] WolfyUtils API: v4.17-beta.7
+[14:15:51] [Server thread/INFO]: [CustomCrafting] CustomCrafting: v4.16.11
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Environment   : PROD
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Registering CustomItem Data
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Registering Custom Block Data
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Registering Recipe Conditions
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Registering Recipe Types
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Registering Anvil Recipe Tasks
+[14:15:51] [Server thread/INFO]: [CustomCrafting] Registering Type Registries
+[14:15:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:15:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[14:15:51] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:15:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:15:52] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[14:15:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[14:15:53] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v4.17-beta.7
+[14:15:53] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.21.1
+[14:15:53] [Server thread/INFO]: [WolfyUtilities] WolfyUtils version: 4.17.0.0
+[14:15:53] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
+[14:15:53] [Server thread/INFO]: [WolfyUtilities] Loading Plugin integrations: 
+[14:15:53] [Server thread/INFO]: [WolfyUtilities]  - No integrations found
+[14:15:53] [Server thread/INFO]: [WolfyUtilities] Register API references
+[14:15:54] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
+[14:15:54] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
+[14:15:54] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[14:15:54] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[14:15:55] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[14:15:55] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[14:15:56] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:15:56] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.6.1
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 8687003
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:15:56] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) TNT ignition is PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lighters are PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Lava fire is PERMITTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] (world_vred_data_void) Fire spread is UNRESTRICTED.
+[14:15:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_vred_data_void'
+[14:15:56] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:15:57] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.0.3
+[14:15:57] [Server thread/INFO]: [ItemEditor] Detected minecraft 1.21.1
+[14:15:57] [Server thread/INFO]: [ItemEditor] Reloading items.
+[14:15:57] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[14:15:57] [Server thread/INFO]: [DeathCoordinates] Enabling DeathCoordinates v1.12.1
+[14:15:57] [Server thread/INFO]: [DeathCoordinates] Has been enabled! Version: 1.12.1
+[14:15:57] [Server thread/INFO]: [DeathCoordinates] Thanks for using my plugin!  ~Ajneb97
+[14:15:57] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.8.0
+[14:15:58] [Server thread/INFO]: [DriveBackupV2] Backup schedule empty, disabling schedule-based backups
+[14:15:58] [Server thread/INFO]: [DriveBackupV2] Config loaded!
+[14:15:58] [Server thread/INFO]: [DriveBackupV2] Scheduling a backup to run every 60 minutes
+[14:15:59] [Server thread/INFO]: [DriveBackupV2] Metrics started
+[14:15:59] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
+[14:15:59] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[14:15:59] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[14:15:59] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v4.16.11
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
+[14:15:59] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[14:15:59] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[14:15:59] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[14:15:59] [Server thread/INFO]: [CustomCrafting]     Version      | v4.16.11
+[14:15:59] [Server thread/INFO]: [CustomCrafting]     WolfyUtils   | v4.17-beta.7
+[14:15:59] [Server thread/INFO]: [CustomCrafting]     Bukkit       | 1.21.1-57-b483da4 (MC: 1.21.1)(API: 1.21.1-R0.1-SNAPSHOT)
+[14:15:59] [Server thread/INFO]: [CustomCrafting] 
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Omarlatif, Nat R, Obsidian_Sword, LiveJunye, Mithran, Teddy
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Invictus_Vulpes , Luuk Musch, fioxu, JorshStark, Perny Dev, Charlie
+[14:15:59] [Server thread/INFO]: [CustomCrafting] iachen, whja t, Green Masks, lance fector, Jack Snellings, MineHouse Server
+[14:15:59] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Data destination: LOCAL
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
+[14:15:59] [Server thread/INFO]: [CustomCrafting] Register ItemCreator Tabs
+[14:16:01] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[14:16:01] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[14:16:01] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 2 threads
+[14:16:01] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
+[14:16:01] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
+[14:16:01] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
+[14:16:01] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 2 recipes in 118ms
+[14:16:01] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[14:16:01] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
+[14:16:01] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[14:16:01] [Server thread/INFO]: Milkawhy: Reload complete.
+[14:16:23] [Server thread/INFO]: Milkawhy issued server command: /pl
+[14:16:29] [Server thread/INFO]: Milkawhy issued server command: /drivebackup backup
+[14:16:29] [Server thread/INFO]: [DriveBackupV2] Forcing a backup
+[14:16:29] [Thread-23/INFO]: [DriveBackupV2] Creating backups, the server may lag for a little while...
+[14:16:29] [Thread-23/INFO]: [DriveBackupV2] Creating local backup(s) and compressing...
